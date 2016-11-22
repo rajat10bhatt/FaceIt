@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		B62C81431DE2DA0A00DDF696 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C81421DE2DA0900DDF696 /* AppDelegate.swift */; };
-		B62C81451DE2DA0A00DDF696 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C81441DE2DA0A00DDF696 /* ViewController.swift */; };
+		B62C81451DE2DA0A00DDF696 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C81441DE2DA0A00DDF696 /* FaceViewController.swift */; };
 		B62C81481DE2DA0B00DDF696 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62C81461DE2DA0B00DDF696 /* Main.storyboard */; };
 		B62C814A1DE2DA0B00DDF696 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B62C81491DE2DA0B00DDF696 /* Assets.xcassets */; };
 		B62C814D1DE2DA0B00DDF696 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B62C814B1DE2DA0B00DDF696 /* LaunchScreen.storyboard */; };
+		B6BFD3551DE45A4300F0AED6 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BFD3541DE45A4300F0AED6 /* FacialExpression.swift */; };
+		B6ED28411DE31A2400FEB61C /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6ED28401DE31A2400FEB61C /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B62C813F1DE2DA0900DDF696 /* FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B62C81421DE2DA0900DDF696 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B62C81441DE2DA0A00DDF696 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B62C81441DE2DA0A00DDF696 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		B62C81471DE2DA0B00DDF696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B62C81491DE2DA0B00DDF696 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B62C814C1DE2DA0B00DDF696 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B62C814E1DE2DA0B00DDF696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6BFD3541DE45A4300F0AED6 /* FacialExpression.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
+		B6ED28401DE31A2400FEB61C /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +59,9 @@
 			isa = PBXGroup;
 			children = (
 				B62C81421DE2DA0900DDF696 /* AppDelegate.swift */,
-				B62C81441DE2DA0A00DDF696 /* ViewController.swift */,
+				B62C81441DE2DA0A00DDF696 /* FaceViewController.swift */,
+				B6ED28401DE31A2400FEB61C /* FaceView.swift */,
+				B6BFD3541DE45A4300F0AED6 /* FacialExpression.swift */,
 				B62C81461DE2DA0B00DDF696 /* Main.storyboard */,
 				B62C81491DE2DA0B00DDF696 /* Assets.xcassets */,
 				B62C814B1DE2DA0B00DDF696 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B62C81451DE2DA0A00DDF696 /* ViewController.swift in Sources */,
+				B62C81451DE2DA0A00DDF696 /* FaceViewController.swift in Sources */,
+				B6BFD3551DE45A4300F0AED6 /* FacialExpression.swift in Sources */,
 				B62C81431DE2DA0A00DDF696 /* AppDelegate.swift in Sources */,
+				B6ED28411DE31A2400FEB61C /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +296,7 @@
 				B62C81531DE2DA0B00DDF696 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
